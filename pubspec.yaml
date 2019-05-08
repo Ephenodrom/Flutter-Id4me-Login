@@ -1,6 +1,6 @@
 name: flutter_id4me_login
 description: Flutter Id4me Login Package
-version: 0.0.1
+version: 0.1.0
 author:
 homepage:
 
@@ -11,6 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   id4me_relying_party_api: ^0.4.0
+  flutter_webview_plugin: ^0.3.4
 
 dev_dependencies:
   flutter_test:
