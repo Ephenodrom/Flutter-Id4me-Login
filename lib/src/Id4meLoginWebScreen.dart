@@ -39,7 +39,7 @@ class _Id4meLoginWebScreenState extends State<Id4meLoginWebScreen> {
     _onUrlChanged = flutterWebViewPlugin.onUrlChanged.listen((String url) {
       setState(() {
         if (mounted) {
-          if (url.startsWith("https://id4meredirect.com")) {
+          if (url.startsWith("https://id4meflutterredirect.com")) {
             RegExp regExp = new RegExp("(code=)(.*)&state");
             String code = regExp.firstMatch(url)?.group(2);
 

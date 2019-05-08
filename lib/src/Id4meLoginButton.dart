@@ -92,7 +92,9 @@ class _Id4meLoginButtonState extends State<Id4meLoginButton> {
   }
 
   Future<void> processId4meLogin(String domain) async {
-    logon = buildLogon(widget.properties, widget.claimsParameters);
+    Map<String, dynamic> prop = widget.properties;
+    prop[Id4meConstants.KEY_REDIRECT_URI] = "https://id4meflutterredirect.com";
+    logon = buildLogon(prop, widget.claimsParameters);
     sessionData = await buildSessionData(domain);
     String url = logon.buildAuthorizationUrl(sessionData);
     String code = await Navigator.push(
