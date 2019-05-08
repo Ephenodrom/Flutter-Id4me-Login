@@ -1,8 +1,9 @@
 name: flutter_id4me_login
 description: Flutter Id4me Login Package
 version: 0.1.0
-author:
-homepage:
+author: Daniel Linsenmeier <daniel@ephenodrom.de>
+homepage: https://github.com/Ephenodrom/Flutter-Id4me-Login
+publish_to: https://pub.dartlang.org
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
