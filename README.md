@@ -20,7 +20,7 @@ Update pubspec.yaml and add the following line to your dependencies.
 
 ```yaml
 dependencies:
-  flutter_id4me_login: ^0.2.0
+  flutter_id4me_login: ^0.3.0
 ```
 
 ## Import

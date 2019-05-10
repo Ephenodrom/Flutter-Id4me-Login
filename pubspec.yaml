@@ -1,6 +1,6 @@
 name: flutter_id4me_login
 description: Integration of the id4me_relying_party_api package for flutter with ready to use widgets.  
-version: 0.2.0
+version: 0.3.0
 author: Daniel Linsenmeier <daniel@ephenodrom.de>
 homepage: https://github.com/Ephenodrom/Flutter-Id4me-Login
 publish_to: https://pub.dartlang.org

@@ -30,12 +30,9 @@ class Login extends StatefulWidget {
 class _LoginState extends State<Login> {
   Map<String, dynamic> properties = {
     Id4meConstants.KEY_CLIENT_NAME: "ID4me Demo",
-    Id4meConstants.KEY_LOGO_URI:
-        "https://www.androidpit.com/img/logo/favicon.png"
   };
 
   Map<String, dynamic> claimsParameters = {
-    "email": {"required": true, "reason": "Needed to create the profile"},
     "name": {"required": true, "reason": "Displayname in the user data"},
   };
 

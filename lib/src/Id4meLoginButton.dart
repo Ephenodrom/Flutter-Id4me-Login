@@ -6,9 +6,9 @@ part of flutter_id4me_login;
 class Id4meLoginButton extends StatefulWidget {
   final double height;
   final String imageLocation;
-  final String loginBtnText;
-  final String cancelBtnText;
-  final String modalHintText;
+  final Text loginBtnText;
+  final Text cancelBtnText;
+  final Text modalHintText;
   final Map<String, dynamic> claimsParameters;
   final Map<String, dynamic> properties;
   final InputDecoration inputDecoration;
@@ -20,9 +20,9 @@ class Id4meLoginButton extends StatefulWidget {
       this.onSuccess, this.onError,
       {this.height = 45,
       this.inputDecoration = const InputDecoration(),
-      this.loginBtnText = "Login",
-      this.cancelBtnText = "Cancel",
-      this.modalHintText = ""});
+      this.loginBtnText = const Text("Login"),
+      this.cancelBtnText = const Text("Cancel"),
+      this.modalHintText});
 
   @override
   _Id4meLoginButtonState createState() => _Id4meLoginButtonState();
@@ -63,7 +63,7 @@ class _Id4meLoginButtonState extends State<Id4meLoginButton> {
               Center(
                   child: Padding(
                 padding: const EdgeInsets.all(16.0),
-                child: Text(widget.modalHintText),
+                child: widget.modalHintText,
               )),
               Padding(
                 padding: const EdgeInsets.all(16.0),
@@ -74,12 +74,12 @@ class _Id4meLoginButtonState extends State<Id4meLoginButton> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
                   FlatButton(
-                      child: Text(widget.loginBtnText),
+                      child: widget.loginBtnText,
                       onPressed: () {
                         processId4meLogin(controller.text);
                       }),
                   FlatButton(
-                    child: Text(widget.cancelBtnText),
+                    child: widget.cancelBtnText,
                     onPressed: () {
                       Navigator.of(context).pop();
                     },
