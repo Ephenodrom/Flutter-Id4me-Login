@@ -1,6 +1,6 @@
-# Basic Utils
+# Flutter Id4me Login
 
-A dart package for many helper methods fitting different situations.
+A Flutter package for easy integration of the Id4me login using the [Dart Id4me Relying Party API](https://github.com/Ephenodrom/Dart-Id4me-RelyingPartyAPI).
 
 ## Table of Contents
 
