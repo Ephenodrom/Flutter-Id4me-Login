@@ -25,7 +25,7 @@ dependencies:
 
 ## Import
 
-Import the package with :
+Import the package with:
 
 ```dart
 import 'package:flutter_id4me_login/flutter_id4me_login.dart';
@@ -57,7 +57,7 @@ The tap on the button will trigger a small dialog/modal with a input field for t
 | onSuccess        | Function(Map<String,dynamic>) |     X    | Function to call after successfull login         |
 | onError          | Function()                    |     X    | Function to call after failed login              |
 | height           | double                        |          | The height of the button. Default = 45           |
-| inputDecoration  | InputDecoration               |          | The InputDecoration for domain input widget      |
+| inputDecoration  | InputDecoration               |          | The InputDecoration for login input widget      |
 | loginBtnText     | String                        |          | The text for the login button. Default = Login   |
 | cancelBtnText    | String                        |          | The text for the cancel button. Default = Cancel |
 | modalHintText    | String                        |          | An additional hint text, displayed in the modal  |
@@ -68,4 +68,4 @@ For a detailed changelog, see the [CHANGELOG.md](CHANGELOG.md) file
 
 ## Copyright and license
 
-View [LICENSE](LICENSE)
+View [LICENSE](LICENSE).

@@ -1,7 +1,7 @@
 part of flutter_id4me_login;
 
 ///
-///
+/// The Id4me login button for easy integration of the Id4me login flow
 ///
 class Id4meLoginButton extends StatefulWidget {
   final double height;
